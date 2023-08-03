@@ -38,7 +38,7 @@ public class Main {
                     System.out.println("\nNumber entered is invalid ");
             }
             if(isMove)
-                System.out.println("The new movable point: x="+movablePoint.getX()+", y="+movablePoint.getY());
+                System.out.println("The new points: x="+movablePoint.getX()+", y="+movablePoint.getY());
 
         }while (num!=5);
 
