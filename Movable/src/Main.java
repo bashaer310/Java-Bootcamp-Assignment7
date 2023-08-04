@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+//Bashaer Alhuthali
+//Java Bootcamp
 public class Main {
     public static void main(String[] args) {
 
@@ -12,32 +12,32 @@ public class Main {
             System.out.println("Please choose the direction you want move to it:"+"\n1.Move Up"+"\n2.Move Down"+"\n3.Move Left"+"\n4.Move Right"+"\n5.Exit");
             num=input.nextInt();
             input.nextLine();
-            boolean isMove=false;
+            boolean isMoved=false;
 
             switch (num){
                 case 1:
                     movablePoint.moveUp();
-                    isMove=true;
+                    isMoved=true;
                     break;
                 case 2:
                     movablePoint.moveDown();
-                    isMove=true;
+                    isMoved=true;
                     break;
                 case 3:
                     movablePoint.moveLeft();
-                    isMove=true;
+                    isMoved=true;
                     break;
                 case 4:
                     movablePoint.moveRight();
-                    isMove=true;
+                    isMoved=true;
                     break;
                 case 5:
                     System.out.println("\nGood Bye");
                     break;
                 default:
-                    System.out.println("\nNumber entered is invalid ");
+                    System.out.println("\nThe number entered is invalid ");
             }
-            if(isMove)
+            if(isMoved)
                 System.out.println("The new points: x="+movablePoint.getX()+", y="+movablePoint.getY());
 
         }while (num!=5);
