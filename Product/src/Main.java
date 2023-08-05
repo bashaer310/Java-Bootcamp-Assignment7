@@ -49,7 +49,7 @@ public class Main {
                 case 3:
                     for (int i = 0; i <book.size() ; i++) {
                         System.out.println(book.get(i).toString());
-                        System.out.println("Price of a book after discount="+book.get(i).getDiscount());
+                        System.out.println("price of the book after discount="+book.get(i).getDiscount());
                     }
                     break;
                 case 4:
@@ -68,7 +68,7 @@ public class Main {
         int num=0;
         do {
             System.out.println("Welcome to Admin page, please choose one of the options:"
-                    +"\n1.Add a movie"+"\n2.Update price of a movie"+"\n3.Display info of all movies"+"\n4.Exit");
+                    +"\n1.Add a movie"+"\n2.Update the price of a movie"+"\n3.Display the info of all movies"+"\n4.Exit");
             num=input.nextInt();
             input.nextLine();
             switch (num){
@@ -106,7 +106,7 @@ public class Main {
                 case 3:
                     for (int i = 0; i <movie.size() ; i++) {
                         System.out.println(movie.get(i).toString());
-                        System.out.println("The price of the movie after discount="+movie.get(i).getDiscount());
+                        System.out.println("price of the movie after discount="+movie.get(i).getDiscount());
                     }
                     break;
                 case 4:
@@ -117,6 +117,8 @@ public class Main {
             }
 
         }while (num!=4);*/
+
+
 
 
     }
