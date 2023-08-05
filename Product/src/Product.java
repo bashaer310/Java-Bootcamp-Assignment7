@@ -33,6 +33,6 @@ public abstract class Product {
     @Override
     public String toString() {
         return "Product:\n" +
-                "name=" + name + ", price=" + price;
+                "the name=" + name + ", price=" + price;
     }
 }
