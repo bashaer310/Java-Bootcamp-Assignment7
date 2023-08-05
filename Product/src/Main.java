@@ -11,12 +11,12 @@ public class Main {
         int num=0;
         do {
             System.out.println("Welcome to Admin page, please choose one of the options:"
-                    +"\n1.Add a book"+"\n2.Update price of a book"+"\n3.Display info of all books"+"\n4.Exit");
+                    +"\n1.Add a book"+"\n2.Update the price of a book"+"\n3.Display the info of all books"+"\n4.Exit");
             num=input.nextInt();
             input.nextLine();
             switch (num){
                 case 1:
-                    System.out.println("\nPlease enter name the of the book ");
+                    System.out.println("\nPlease enter the name of the book ");
                     String name=input.nextLine();
 
                     System.out.println("\nPlease enter the price of the book ");
